@@ -52,22 +52,22 @@ return(
             <div className="menu-wraper">
                  <ul className="menu-catigories">
                     <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><GrGamepad/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
-                    <li className="menu-actigorise-item"><FiSmartphone/>Ноутбуки та комп’ютери</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Смартфони, ТВ і Електроніка</li>
+                    <li className="menu-actigorise-item"><GrGamepad/>Товари для геймерів</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Побутова техніка</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Товари для дому</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Інструменти та автотовари</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Сантехніка та ремонт</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Дача, сад, город</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Спорт і захоплення</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Одяг, взуття та аксесуари</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Краса та здоров'я</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Товари для дітей</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Зоотовари</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Офіс, школа, книги</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Алкогольні напої та продукти</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Нашим захисникам</li>
+                    <li className="menu-actigorise-item"><FiSmartphone/>Знижки до -50%</li>
                 </ul>
             </div>
     

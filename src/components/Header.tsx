@@ -12,7 +12,7 @@ import {FaEyeSlash,FaEye,FaFacebookF} from 'react-icons/all'
 const Header =() =>{
     const [isOpen,setisOpen] = useState<boolean>(false);
     const [isOpenreg,setisOpenreg] = useState<boolean>(false);
-    
+    const [isOpencat,setisOpencat] = useState<boolean>(false);
 
     function ser (){
     const closeclock = setisOpen(false)
@@ -22,15 +22,21 @@ const Header =() =>{
         const closeclock2 = setisOpen(true)
         const closeclock1 = setisOpenreg(false)
     }
+   
   
 
     return(
+<div className="header-sell">
+        <div className="top-header-sell">
+            <img src="./header-sell.jpg" alt="" />
+        </div>
+        
         <nav>
             <div className="container">
                 <div className="logo"> <Link to='/'><img src="./public/logo.svg" alt="" /></Link></div>
                 <div className="menu">
                     <div className='links-menu'>
-                        <button className='button-menu'>Каталог</button>
+                        <button onClick={()=> setisOpencat(true)} className='button-menu'>Каталог</button>
                         <input type="text" autoComplete='off' name='search' placeholder='Я Шукаю...' className='input-search'></input>
                         <button className='button-search'>Знайти</button>
                         <ul className='action-menu'>
@@ -163,6 +169,17 @@ const Header =() =>{
                                         </Dialog.Panel>
                                     </div>
                                 </Dialog>
+                                <Dialog open={isOpencat} onClose={()=> setisOpencat(false)}>
+                                    <div className="bg-modal-catalog">
+                                        <Dialog.Panel>
+                                            <div className="pupup-catalog">
+                                                <Dialog.Title className='header-modal-catalog'><RxCross1/>
+                                                        <h1>1</h1>
+                                                </Dialog.Title>
+                                            </div>
+                                        </Dialog.Panel>
+                                    </div>
+                                </Dialog>
                             </li>
                             </div>
                         </ul>
@@ -173,6 +190,7 @@ const Header =() =>{
                 </div>
             </div>
         </nav>
+</div>
     )
 }
 export default Header
